@@ -1,0 +1,1 @@
+Hello! I'm learning how to use Git and GitHub, as well as how to make a website from scratch. This is my readme file. 🤷‍♂️`
