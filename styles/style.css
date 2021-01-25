@@ -1,0 +1,48 @@
+/* update the style for all text on this page */
+html {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #15202b;
+}
+
+/* change the heading style */
+h1, h2, h3, h4, h5, h6 {
+    color: #1da1f2;
+    padding: 0px;
+    margin: 30px 0px 10px 0px;
+    text-shadow: 3px 3px 2px black;
+}
+
+/* link styling */
+a {
+    color: skyblue;
+}
+
+/* update the paragraph and list styles */
+p, li {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 10px 0px 30px 0px;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 3px 3px 2px black;
+}
+
+/* change the body styling */
+body {
+    width: 800px;
+    margin: 0px auto;
+    background-color: #192734;
+    padding: 0px 30px 0px 30px;
+    border: 5px solid lightgrey;
+    border-radius: 10px;
+}
+
+/* image styling */
+img {
+    display: block;
+    margin: 0px auto;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
