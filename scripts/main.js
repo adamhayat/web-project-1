@@ -21,7 +21,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.textContent = `Welcome to my Page, ${myName}`, + '!!!!';
+    myHeading.textContent = `Wow! ` + myName + ` thinks that Kish is shit at Catan!`;
   }
 }
 
@@ -29,7 +29,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Kish is shit, right, ' + storedName + '?!?!?';
+  myHeading.textContent = 'Wow, Kish is really shit at Catan!';
 }
 
 myButton.onclick = function() {

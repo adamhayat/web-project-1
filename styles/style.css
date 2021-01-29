@@ -48,11 +48,56 @@ img {
     border-radius: 5px;
 }
 
-/* Style the button */
-.main-button {
-display: block;
-background-color: #3c3c3c;
-color: #ffffff;
-border: 3px solid white;
-border-radius: 2px;
+/* style the button */
+.button-block {
+    width: 200px;
+    margin: 0 40% 0 40%;
+    background-color: darkgreen;
+    color: white;
+    padding: 12px;
+    border: 4px solid white;
+    border-radius: 50px;
+    outline: none;
+    transition: background-color 1s;
+    font-size: large;
+}
+
+.button-block:hover {
+    background-color: orange;
+}
+
+.content-block {
+    background-color: #f0f0f0;
+    color: #3c3c3c;
+    padding: 30px 80px 30px 80px;
+    margin: 80px auto 50px auto;
+}
+
+#form-title {
+    color: #3c3c3c;
+    text-shadow: none;
+}
+
+input[type=textarea] {
+    width: 80%;
+    height: 80px;
+    margin: 6px;
+    padding: 6px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#kishpic {
+    width: 140px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#column1 {
+    margin: 20px;
+}
+
+#column2 {
+    float: right;
 }
