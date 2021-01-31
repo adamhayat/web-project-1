@@ -50,8 +50,8 @@ img {
 
 /* style the button */
 .button-block {
-    width: 200px;
-    margin: 0 40% 0 40%;
+    width: 50%;
+    margin: 0 25%;
     background-color: darkgreen;
     color: white;
     padding: 12px;
@@ -62,10 +62,12 @@ img {
     font-size: large;
 }
 
+/* Hover style for button *//
 .button-block:hover {
     background-color: orange;
 }
 
+/* styling for block of content */
 .content-block {
     background-color: #f0f0f0;
     color: #3c3c3c;
@@ -73,11 +75,13 @@ img {
     margin: 80px auto 50px auto;
 }
 
+/* form styling */
 #form-title {
     color: #3c3c3c;
     text-shadow: none;
 }
 
+/* form input styling */
 input[type=textarea] {
     width: 80%;
     height: 80px;
@@ -87,6 +91,7 @@ input[type=textarea] {
     outline: none;
 }
 
+/* image styling for Kish's pic */
 #kishpic {
     width: 140px;
     height: auto;
@@ -94,10 +99,18 @@ input[type=textarea] {
     border-radius: 50%;
 }
 
+/* styling of text next to Kish's pic and with his pic */
 #column1 {
     margin: 20px;
 }
 
 #column2 {
     float: right;
+}
+
+/* dotted separator line */
+.dotted {
+    border:none;
+    border-top: 5px dashed #f0f0f0;
+    margin: 100px 20% 100px 20%;
 }
