@@ -16,7 +16,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1')
 
 function setUserName() {
-  let myName = prompt('What is your name?');
+  let myName = prompt('Enter the name of one of your friends:');
   if(!myName) {
     setUserName();
   } else {
